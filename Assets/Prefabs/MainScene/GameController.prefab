@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1223888284401586}
+  m_IsPrefabParent: 1
+--- !u!1 &1223888284401586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4404046156742286}
+  - component: {fileID: 114565703877704954}
+  - component: {fileID: 114631113238760464}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404046156742286
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1223888284401586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.421365, y: 16.146227, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114565703877704954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1223888284401586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e099e0d698d424b43b42736efb4264ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Block:
+  - {fileID: 1049127410275374, guid: 451aecfd6ba85794e913e3a26823a570, type: 2}
+  - {fileID: 1613283886316802, guid: afdbc2c654081a547adc69043b1c7c23, type: 2}
+  - {fileID: 1601253003331228, guid: 1057d70b6f8a51840840534d444bc279, type: 2}
+  Particle:
+  - {fileID: 1515102207148786, guid: 2fbf06d178b1b574f820a789a32e51c2, type: 2}
+  - {fileID: 1341078957231048, guid: 9b0ba54cc656e15459be86015b7c343b, type: 2}
+  - {fileID: 1801185676306448, guid: cf7ee008f199e3a439e53e9683e36d7c, type: 2}
+  LevelBTN:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Textures: []
+  SFX:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  screenandcamera: {fileID: 114153501678460538, guid: a6dee79388a6031449b9f54cd7a32d8d,
+    type: 2}
+  camera: {fileID: 1005395493638924, guid: a6dee79388a6031449b9f54cd7a32d8d, type: 2}
+  highscore: {fileID: 0}
+--- !u!114 &114631113238760464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1223888284401586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f5416a29242064e958583dca4dd6a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
