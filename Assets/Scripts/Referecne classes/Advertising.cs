@@ -153,7 +153,6 @@ public class Advertising : MonoBehaviour
             options.showDialog = true;
             options.rotationMode = TapsellShowOptions.ROTATION_UNLOCKED;
             Tapsell.ShowAd(adID, options);
-            Time.timeScale = 0;
         }
         else
         {

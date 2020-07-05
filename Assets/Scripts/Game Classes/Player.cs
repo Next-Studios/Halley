@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.ImageEffects;
-
 using System.Collections;
 
 public class Player : MonoBehaviour
@@ -248,7 +247,7 @@ public class Player : MonoBehaviour
 
         State = GameStatus.Stop;
         PlayerPrefs.SetInt("LastScore", int.Parse(ScoreText.text));
-        progressBar.SetActive(false);
+        //progressBar.SetActive(false);
         Coin += PlayerPrefs.GetInt("coinplus");
         PlayerPrefs.SetInt("Coin", Coin);
         if (SurviveScript.IsWatched == true || hitblock == false)
